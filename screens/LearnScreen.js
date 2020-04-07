@@ -2,30 +2,21 @@ import React from 'react';
 import {StyleSheet, Text, View, TouchableOpacity} from 'react-native';
 import colours from '../components/Colours'
 
-export default class HomeScreen extends React.Component {
-render(){
-  const { navigate } = this.props.navigation;
-  return(
-    <View style={page.container}>
-    <Text style={page.title}>TeachAbacus</Text>
-    <TouchableOpacity onPress={() => navigate('Learn')} style={[page.learnCircle]}>
-    <Text adjustsFontSizeToFit allowFontScaling numberOfLines={1} style={page.heading}>LEARN</Text>
-    </TouchableOpacity>
-    <View style={[page.buttonCircle, page.achievementButton]}>
-    <Text adjustsFontSizeToFit allowFontScaling numberOfLines={1} style={page.heading}>ACHIEVEMENTS</Text>
-    </View>
-    <View style={[page.buttonCircle, page.profileButton]}>
-    <Text adjustsFontSizeToFit allowFontScaling numberOfLines={1} style={page.heading}>PROFILE</Text>
-    </View>
-    <View style={[page.buttonCircle, page.classButton]}>
-    <Text adjustsFontSizeToFit allowFontScaling numberOfLines={1} style={page.heading}>CLASS</Text>
-    </View>
-    <View style={[page.buttonCircle, page.backButton]}>
-    <Text adjustsFontSizeToFit allowFontScaling numberOfLines={1} style={page.heading}>LOG OUT</Text>
-    </View>
-    </View>
-  );
-}
+export default class LearnScreen extends React.Component {
+  render(){
+    const { navigate } = this.props.navigation;
+    return(
+      <View style={page.container}>
+      <Text style={page.title}>TeachAbacus</Text>
+      <View style={page.randomCircle}>
+      <Text adjustsFontSizeToFit allowFontScaling numberOfLines={1} style={page.heading}>RANDOM</Text>
+      </View>
+      <View style={page.buttonCircle}>
+      <Text adjustsFontSizeToFit allowFontScaling numberOfLines={1} style={page.heading}>INTERNET </Text>
+      </View>
+      </View>
+    );
+  }
 }
 
 const page = StyleSheet.create({
@@ -42,6 +33,17 @@ const page = StyleSheet.create({
     fontFamily: "Arial",
     position: "absolute",
     top:40,
+  },
+  randomCircle: {
+    width: 200,
+    height: 200,
+    borderRadius: 200/2,
+    backgroundColor: colours.DeepSaffron,
+    position: "absolute",
+    borderWidth: 7,
+    borderColor: colours.Black,
+    justifyContent: "center",
+    top: 150,
   },
   learnCircle: {
     width: 200,
