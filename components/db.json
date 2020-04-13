@@ -13,7 +13,7 @@
     { "id": "10", "firstname": "ChildSevenFirst", "lastname": "ChildSevenLast", "usertype": "student", "password": "childpassword123" },
     { "id": "11", "firstname": "ChildEightFirst", "lastname": "ChildEightLast", "usertype": "student", "password": "childpassword123" },
     { "id": "12", "firstname": "ChildNineFirst", "lastname": "ChildNineLast", "usertype": "student", "password": "childpassword123" },
-    { "id": "13", "firstname": "ChildTenFirst", "lastname": "ChildTenLast", "usertype": "student", "password": "childpassword123" }
+    { "id": "13", "firstname": "ChildTenFirst", "lastname": "ChildTenLast", "usertype": "student", "password": "childpassword123" },
   ],
   "subjects": [
     { "id": "0", "subjectName": "ComputerScience", "goal": "Complete course", "subjectID": "N/A"},
@@ -23,7 +23,7 @@
     { "id": "4", "subjectName": "ks1Logic", "goal": "Use logical reasoning to predict the behaviour of simple programs", "subjectID": "1"},
     { "id": "5", "subjectName": "ks1DigitalContent", "goal": "Use technology purposefully to create, organise, store, manipulate and retrieve digital content", "subjectID": "1"},
     { "id": "6", "subjectName": "ks1RealWorld", "goal": "Recognise common uses of information technology beyond school", "subjectID": "1"},
-    { "id": "7", "subjectName": "ks1Internet", "goal": "Use technology safely and respectfully, keeping personal information private; identify where to go for help and support when they have concerns about content or contact on the internet or other online technologies", "subjectID": "1"}
+    { "id": "7", "subjectName": "ks1Internet", "goal": "Use technology safely and respectfully, keeping personal information private; identify where to go for help and support when they have concerns about content or contact on the internet or other online technologies", "subjectID": "1"},
   ],
   "cards": [
     { "id": "0", "cardName": "ks1AlgorithmsVideo", "subjectID": "2", "language": "English", "cardKind": "video", "content": "url..."},
