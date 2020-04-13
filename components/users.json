@@ -12,6 +12,6 @@
     { "id": "10", "first_name": "ChildSevenFirst", "last_name": "ChildSevenLast", "user_type": "student", "password": "childpassword123" },
     { "id": "11", "first_name": "ChildEightFirst", "last_name": "ChildEightLast", "user_type": "student", "password": "childpassword123" },
     { "id": "12", "first_name": "ChildNineFirst", "last_name": "ChildNineLast", "user_type": "student", "password": "childpassword123" },
-    { "id": "13", "first_name": "ChildTenFirst", "last_name": "ChildTenLast", "user_type": "student", "password": "childpassword123" },
+    { "id": "13", "first_name": "ChildTenFirst", "last_name": "ChildTenLast", "user_type": "student", "password": "childpassword123" }
   ]
 }
