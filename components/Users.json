@@ -1,4 +1,3 @@
-{"Users":[
     {
       "id": "aaa111",
       "first": "Harry",
@@ -65,5 +64,3 @@
       "last": "User_10",
       "password": "password"
     }
-  ]
-}
