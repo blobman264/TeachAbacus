@@ -1,90 +1,68 @@
 {"Users":[
     {
       "id": "aaa111",
-      "name": {
-        "first": "Harry",
-        "last": "Weston"
-        },
+      "first": "Harry",
+      "last": "Weston",
       "password": "adminPassword"
     },
     {
       "id": "aaa001",
-      "name": {
-        "first": "Test_1",
-        "last": "User_1"
-        },
+      "first": "Test_1",
+      "last": "User_1",
       "password": "password"
     },
     {
       "id": "aaa002",
-      "name": {
-        "first": "Test_2",
-        "last": "User_2"
-        },
+      "first": "Test_2",
+      "last": "User_2",
       "password": "password"
     },
     {
       "id": "aaa003",
-      "name": {
-        "first": "Test_3",
-        "last": "User_3"
-        },
+      "first": "Test_3",
+      "last": "User_3",
       "password": "password"
     },
     {
       "id": "aaa004",
-      "name": {
-        "first": "Test_4",
-        "last": "User_4"
-        },
+      "first": "Test_4",
+      "last": "User_4",
       "password": "password"
     },
     {
       "id": "aaa005",
-      "name": {
-        "first": "Test_5",
-        "last": "User_5"
-        },
+      "first": "Test_5",
+      "last": "User_5",
       "password": "password"
     },
     {
       "id": "aaa006",
-      "name": {
-        "first": "Test_6",
-        "last": "User_6"
-        },
+      "first": "Test_6",
+      "last": "User_6",
       "password": "password"
     },
     {
       "id": "aaa007",
-      "name": {
-        "first": "Test_7",
-        "last": "User_7"
-        },
+      "first": "Test_7",
+      "last": "User_7",
       "password": "password"
     },
     {
       "id": "aaa008",
-      "name": {
-        "first": "Test_8",
-        "last": "User_8"
-        },
+      "first": "Test_8",
+      "last": "User_8",
       "password": "password"
     },
     {
       "id": "aaa009",
-      "name": {
-        "first": "Test_9",
-        "last": "User_9"
-        },
+      "first": "Test_9",
+      "last": "User_9",
       "password": "password"
     },
     {
       "id": "aaa010",
-      "name": {
-        "first": "Test_10",
-        "last": "User_10"
-        },
+      "first": "Test_10",
+      "last": "User_10",
       "password": "password"
     }
   ]
