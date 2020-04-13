@@ -41,7 +41,7 @@ render(){
       data={this.state.dataSource}
       renderItem={({ item }) => (
         <Text>
-          {item.id}, {item.first_name}
+          {item.id}, {item.title}
         </Text>
       )}
       keyExtractor={({ id }, index) => id}

@@ -1,19 +1,13 @@
+
+
 {
   "title": "The Basics - Networking",
   "description": "Your app fetched this from a remote endpoint!",
   "users": [
-    { "id": "1", "first_name": "Harry", "last_name": "Weston", "user_type": "admin", "password": "adminpassword123" },
-    { "id": "2", "first_name": "TeacherOneFirst", "last_name": "TeacherOneLast", "user_type": "teacher", "password": "teacherpassword123" },
-    { "id": "3", "first_name": "TeacherTwoFirst", "last_name": "TeacherTwoLast", "user_type": "teacher", "password": "teacherpassword123" },
-    { "id": "4", "first_name": "ChildOneFirst", "last_name": "ChildOneLast", "user_type": "student", "password": "childpassword123" },
-    { "id": "5", "first_name": "ChildTwoFirst", "last_name": "ChildTwoLast", "user_type": "student", "password": "childpassword123" },
-    { "id": "6", "first_name": "ChildThreeFirst", "last_name": "ChildThreeLast", "user_type": "student", "password": "childpassword123" },
-    { "id": "7", "first_name": "ChildFourFirst", "last_name": "ChildFourLast", "user_type": "student", "password": "childpassword123" },
-    { "id": "8", "first_name": "ChildFiveFirst", "last_name": "ChildFiveLast", "user_type": "student", "password": "childpassword123" },
-    { "id": "9", "first_name": "ChildSixFirst", "last_name": "ChildSixLast", "user_type": "student", "password": "childpassword123" },
-    { "id": "10", "first_name": "ChildSevenFirst", "last_name": "ChildSevenLast", "user_type": "student", "password": "childpassword123" },
-    { "id": "11", "first_name": "ChildEightFirst", "last_name": "ChildEightLast", "user_type": "student", "password": "childpassword123" },
-    { "id": "12", "first_name": "ChildNineFirst", "last_name": "ChildNineLast", "user_type": "student", "password": "childpassword123" },
-    { "id": "13", "first_name": "ChildTenFirst", "last_name": "ChildTenLast", "user_type": "student", "password": "childpassword123" }
+    { "id": "1", "title": "Star Wars", "releaseYear": "1977" },
+    { "id": "2", "title": "Back to the Future", "releaseYear": "1985" },
+    { "id": "3", "title": "The Matrix", "releaseYear": "1999" },
+    { "id": "4", "title": "Inception", "releaseYear": "2010" },
+    { "id": "5", "title": "Interstellar", "releaseYear": "2014" }
   ]
 }
