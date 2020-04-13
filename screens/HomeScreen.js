@@ -16,7 +16,7 @@ export default class HomeScreen extends React.Component {
         this.setState(
           {
             isLoading: false,
-            dataSource: responseJson.users,
+            dataSource: responseJson.movies,
           },
           function() {}
         );
@@ -41,7 +41,7 @@ render(){
       data={this.state.dataSource}
       renderItem={({ item }) => (
         <Text>
-          {item.id}, {item.first}
+          {item.title}, {item.releaseYear}
         </Text>
       )}
       keyExtractor={({ id }, index) => id}
