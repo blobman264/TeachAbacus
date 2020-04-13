@@ -10,7 +10,7 @@ export default class HomeScreen extends React.Component {
   }
 
   componentDidMount() {
-    return fetch('https://blobman264.github.io/TeachAbacus/components/Users.json')
+    return fetch('https://blobman264.github.io/TeachAbacus/components/movies.json')
       .then(response => response.json())
       .then(responseJson => {
         this.setState(
