@@ -43,7 +43,7 @@
     { "id": "14", "cardName": "ks1RealWorldGame", "subjectID": "6", "language": "English", "cardKind": "game", "content": "game..."},
     { "id": "15", "cardName": "ks1InternetVideo", "subjectID": "7", "language": "English", "cardKind": "video", "content": "url..."},
     { "id": "16", "cardName": "ks1InternetText", "subjectID": "7", "language": "English", "cardKind": "text", "content": "text..."},
-    { "id": "17", "cardName": "ks1InternetGame", "subjectID": "7", "language": "English", "cardKind": "game", "content": "game..."},
+    { "id": "17", "cardName": "ks1InternetGame", "subjectID": "7", "language": "English", "cardKind": "game", "content": "game..."}
   ]
 
 }
