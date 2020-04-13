@@ -16,7 +16,7 @@ export default class HomeScreen extends React.Component {
         this.setState(
           {
             isLoading: false,
-            dataSource: responseJson.movies,
+            dataSource: responseJson.users,
           },
           function() {}
         );
@@ -37,15 +37,34 @@ render(){
 
   return (
     <View style={{ flex: 1, paddingTop: 20 }}>
-      <FlatList
-        data={this.state.dataSource}
-        renderItem={({ item }) => (
-          <Text>
-            {item.title}, {item.releaseYear}
-          </Text>
-        )}
-        keyExtractor={({ id }, index) => id}
-      />
+    <FlatList
+      data={this.state.dataSource}
+      renderItem={({ item }) => (
+        <Text>
+          {item.id}, {item.first}
+        </Text>
+      )}
+      keyExtractor={({ id }, index) => id}
+    />
+
+      <View style={homePage.container}>
+      <Text style={homePage.title}>TeachAbacus</Text>
+      <TouchableOpacity onPress={() => navigate('Learn')} style={[homePage.learnCircle]}>
+      <Text adjustsFontSizeToFit allowFontScaling numberOfLines={1} style={homePage.heading}>LEARN</Text>
+      </TouchableOpacity>
+      <View style={[homePage.buttonCircle, homePage.achievementButton]}>
+      <Text adjustsFontSizeToFit allowFontScaling numberOfLines={1} style={homePage.heading}>ACHIEVEMENTS</Text>
+      </View>
+      <View style={[homePage.buttonCircle, homePage.profileButton]}>
+      <Text adjustsFontSizeToFit allowFontScaling numberOfLines={1} style={homePage.heading}>PROFILE</Text>
+      </View>
+      <View style={[homePage.buttonCircle, homePage.classButton]}>
+      <Text adjustsFontSizeToFit allowFontScaling numberOfLines={1} style={homePage.heading}>CLASS</Text>
+      </View>
+      <View style={[homePage.buttonCircle, homePage.backButton]}>
+      <Text adjustsFontSizeToFit allowFontScaling numberOfLines={1} style={homePage.heading}>LOG OUT</Text>
+      </View>
+      </View>
     </View>
   );
 }
