@@ -4,10 +4,10 @@
   "title": "The Basics - Networking",
   "description": "Your app fetched this from a remote endpoint!",
   "users": [
-    { "id": "1", "first_name": "Star Wars", "releaseYear": "1977" },
-    { "id": "2", "first_name": "Back to the Future", "releaseYear": "1985" },
-    { "id": "3", "first_name": "The Matrix", "releaseYear": "1999" },
-    { "id": "4", "first_name": "Inception", "releaseYear": "2010" },
-    { "id": "5", "first_name": "Interstellar", "releaseYear": "2014" }
+    { "id": "1", "firstname": "Star Wars", "releaseYear": "1977" },
+    { "id": "2", "firstname": "Back to the Future", "releaseYear": "1985" },
+    { "id": "3", "firstname": "The Matrix", "releaseYear": "1999" },
+    { "id": "4", "firstname": "Inception", "releaseYear": "2010" },
+    { "id": "5", "firstname": "Interstellar", "releaseYear": "2014" }
   ]
 }
