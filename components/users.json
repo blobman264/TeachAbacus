@@ -1,4 +1,6 @@
 {
+  "title": "The Basics - Networking",
+  "description": "Your app fetched this from a remote endpoint!",
   "users": [
     { "id": "1", "first_name": "Harry", "last_name": "Weston", "user_type": "admin", "password": "adminpassword123" },
     { "id": "2", "first_name": "TeacherOneFirst", "last_name": "TeacherOneLast", "user_type": "teacher", "password": "teacherpassword123" },
