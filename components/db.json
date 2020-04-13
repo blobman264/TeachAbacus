@@ -14,5 +14,36 @@
     { "id": "11", "firstname": "ChildEightFirst", "lastname": "ChildEightLast", "usertype": "student", "password": "childpassword123" },
     { "id": "12", "firstname": "ChildNineFirst", "lastname": "ChildNineLast", "usertype": "student", "password": "childpassword123" },
     { "id": "13", "firstname": "ChildTenFirst", "lastname": "ChildTenLast", "usertype": "student", "password": "childpassword123" }
+  ],
+  "subjects": [
+    { "id": "0", "subjectName": "ComputerScience", "goal": "Complete course", "subjectID": "N/A"},
+    { "id": "1", "subjectName": "KeyStage1", "goal": "Basic foundation of computer science, national curriculum standard for England", "subjectID": "0"},
+    { "id": "2", "subjectName": "ks1Algorithms", "goal": "Understand what algorithms are; how they are implemented as programs on digital devices; and that programs execute by following precise and unambiguous instructions", "subjectID": "1"},
+    { "id": "3", "subjectName": "ks1Programs", "goal": "Create and debug simple programs", "subjectID": "1"},
+    { "id": "4", "subjectName": "ks1Logic", "goal": "Use logical reasoning to predict the behaviour of simple programs", "subjectID": "1"},
+    { "id": "5", "subjectName": "ks1DigitalContent", "goal": "Use technology purposefully to create, organise, store, manipulate and retrieve digital content", "subjectID": "1"},
+    { "id": "6", "subjectName": "ks1RealWorld", "goal": "Recognise common uses of information technology beyond school", "subjectID": "1"},
+    { "id": "7", "subjectName": "ks1Internet", "goal": "Use technology safely and respectfully, keeping personal information private; identify where to go for help and support when they have concerns about content or contact on the internet or other online technologies", "subjectID": "1"}
+  ],
+  "cards": [
+    { "id": "0", "cardName": "ks1AlgorithmsVideo", "subjectID": "2", "language": "English", "cardKind": "video", "content": "url..."},
+    { "id": "1", "cardName": "ks1AlgorithmsText", "subjectID": "2", "language": "English", "cardKind": "text", "content": "text..."},
+    { "id": "2", "cardName": "ks1AlgorithmsGame", "subjectID": "2", "language": "English", "cardKind": "game", "content": "game..."},
+    { "id": "3", "cardName": "ks1ProgramsVideo", "subjectID": "3", "language": "English", "cardKind": "video", "content": "url..."},
+    { "id": "4", "cardName": "ks1ProgramsText", "subjectID": "3", "language": "English", "cardKind": "text", "content": "text..."},
+    { "id": "5", "cardName": "ks1ProgramsGame", "subjectID": "3", "language": "English", "cardKind": "game", "content": "game..."},
+    { "id": "6", "cardName": "ks1LogicVideo", "subjectID": "4", "language": "English", "cardKind": "video", "content": "url..."},
+    { "id": "7", "cardName": "ks1LogicText", "subjectID": "4", "language": "English", "cardKind": "text", "content": "text..."},
+    { "id": "8", "cardName": "ks1LogicGame", "subjectID": "4", "language": "English", "cardKind": "game", "content": "game..."},
+    { "id": "9", "cardName": "ks1DigitalContentVideo", "subjectID": "5", "language": "English", "cardKind": "video", "content": "url..."},
+    { "id": "10", "cardName": "ks1DigitalContentText", "subjectID": "5", "language": "English", "cardKind": "text", "content": "text..."},
+    { "id": "11", "cardName": "ks1DigitalContentGame", "subjectID": "5", "language": "English", "cardKind": "game", "content": "game..."},
+    { "id": "12", "cardName": "ks1RealWorldVideo", "subjectID": "6", "language": "English", "cardKind": "video", "content": "url..."},
+    { "id": "13", "cardName": "ks1RealWorldText", "subjectID": "6", "language": "English", "cardKind": "text", "content": "text..."},
+    { "id": "14", "cardName": "ks1RealWorldGame", "subjectID": "6", "language": "English", "cardKind": "game", "content": "game..."},
+    { "id": "15", "cardName": "ks1InternetVideo", "subjectID": "7", "language": "English", "cardKind": "video", "content": "url..."},
+    { "id": "16", "cardName": "ks1InternetText", "subjectID": "7", "language": "English", "cardKind": "text", "content": "text..."},
+    { "id": "17", "cardName": "ks1InternetGame", "subjectID": "7", "language": "English", "cardKind": "game", "content": "game..."},
   ]
+
 }
