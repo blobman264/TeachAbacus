@@ -2,33 +2,34 @@ import React from 'react';
 import {StyleSheet, Text, View, TouchableOpacity} from 'react-native';
 import colours from '../components/Colours'
 
+
 export default class HomeScreen extends React.Component {
 render(){
   const { navigate } = this.props.navigation;
   return(
-    <View style={page.container}>
-    <Text style={page.title}>TeachAbacus</Text>
-    <TouchableOpacity onPress={() => navigate('Learn')} style={[page.learnCircle]}>
-    <Text adjustsFontSizeToFit allowFontScaling numberOfLines={1} style={page.heading}>LEARN</Text>
+    <View style={homePage.container}>
+    <Text style={homePage.title}>TeachAbacus</Text>
+    <TouchableOpacity onPress={() => navigate('Learn')} style={[homePage.learnCircle]}>
+    <Text adjustsFontSizeToFit allowFontScaling numberOfLines={1} style={homePage.heading}>LEARN</Text>
     </TouchableOpacity>
-    <View style={[page.buttonCircle, page.achievementButton]}>
-    <Text adjustsFontSizeToFit allowFontScaling numberOfLines={1} style={page.heading}>ACHIEVEMENTS</Text>
+    <View style={[homePage.buttonCircle, homePage.achievementButton]}>
+    <Text adjustsFontSizeToFit allowFontScaling numberOfLines={1} style={homePage.heading}>ACHIEVEMENTS</Text>
     </View>
-    <View style={[page.buttonCircle, page.profileButton]}>
-    <Text adjustsFontSizeToFit allowFontScaling numberOfLines={1} style={page.heading}>PROFILE</Text>
+    <View style={[homePage.buttonCircle, homePage.profileButton]}>
+    <Text adjustsFontSizeToFit allowFontScaling numberOfLines={1} style={homePage.heading}>PROFILE</Text>
     </View>
-    <View style={[page.buttonCircle, page.classButton]}>
-    <Text adjustsFontSizeToFit allowFontScaling numberOfLines={1} style={page.heading}>CLASS</Text>
+    <View style={[homePage.buttonCircle, homePage.classButton]}>
+    <Text adjustsFontSizeToFit allowFontScaling numberOfLines={1} style={homePage.heading}>CLASS</Text>
     </View>
-    <View style={[page.buttonCircle, page.backButton]}>
-    <Text adjustsFontSizeToFit allowFontScaling numberOfLines={1} style={page.heading}>LOG OUT</Text>
+    <View style={[homePage.buttonCircle, homePage.backButton]}>
+    <Text adjustsFontSizeToFit allowFontScaling numberOfLines={1} style={homePage.heading}>LOG OUT</Text>
     </View>
     </View>
   );
 }
 }
 
-const page = StyleSheet.create({
+const homePage = StyleSheet.create({
   container: {
     backgroundColor: colours.PrimaryColour,
     flex: 1,
