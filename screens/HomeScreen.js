@@ -1,12 +1,55 @@
 import React from 'react';
-import {StyleSheet, Text, View, TouchableOpacity} from 'react-native';
+import { FlatList, ActivityIndicator, StyleSheet, Text, View, TouchableOpacity} from 'react-native';
 import colours from '../components/Colours'
 
 
 export default class HomeScreen extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { isLoading: true };
+  }
+
+  componentDidMount() {
+    return fetch('https://blobman264.github.io/TeachAbacus/components/Users.json')
+      .then(response => response.json())
+      .then(responseJson => {
+        this.setState(
+          {
+            isLoading: false,
+            dataSource: responseJson.movies,
+          },
+          function() {}
+        );
+      })
+      .catch(error => {
+        console.error(error);
+      });
+  }
 render(){
   const { navigate } = this.props.navigation;
-  return(
+  if (this.state.isLoading) {
+    return (
+      <View style={{ flex: 1, padding: 20 }}>
+        <ActivityIndicator />
+      </View>
+    );
+  }
+
+  return (
+    <View style={{ flex: 1, paddingTop: 20 }}>
+      <FlatList
+        data={this.state.dataSource}
+        renderItem={({ item }) => (
+          <Text>
+            {item.title}, {item.releaseYear}
+          </Text>
+        )}
+        keyExtractor={({ id }, index) => id}
+      />
+    </View>
+  );
+}
+  /*return(
     <View style={homePage.container}>
     <Text style={homePage.title}>TeachAbacus</Text>
     <TouchableOpacity onPress={() => navigate('Learn')} style={[homePage.learnCircle]}>
@@ -25,8 +68,7 @@ render(){
     <Text adjustsFontSizeToFit allowFontScaling numberOfLines={1} style={homePage.heading}>LOG OUT</Text>
     </View>
     </View>
-  );
-}
+  );*/
 }
 
 const homePage = StyleSheet.create({
