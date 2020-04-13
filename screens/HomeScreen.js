@@ -16,7 +16,7 @@ export default class HomeScreen extends React.Component {
         this.setState(
           {
             isLoading: false,
-            dataSource: responseJson.users,
+            dataSource: responseJson.movies,
           },
           function() {}
         );
